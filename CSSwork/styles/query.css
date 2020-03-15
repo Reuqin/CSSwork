@@ -1,0 +1,37 @@
+@media (max-width: 479px) {
+  .contacts, .skills {
+    width: 100%;
+    margin-bottom: 20px; } }
+@media (max-width: 767px) {
+  main {
+    width: 96%;
+    padding-top: 20px; }
+    main .info {
+      width: 100%;
+      margin-bottom: 20px; }
+    main .content {
+      width: 100%; } }
+@media (min-width: 768px) and (max-width: 1200px) {
+  main {
+    width: 96%; }
+    main .info {
+      width: 28%;
+      margin-right: 2%;
+      float: left;
+      background-color: #A9E8DC;
+      text-align: center;
+      border-radius: 7px;
+      box-sizing: border-box; }
+
+  .bio .avatar {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 10px; }
+
+  .social-links i {
+    font-size: 1.1rem;
+    margin: 6px; } }
+
+/*# sourceMappingURL=query.css.map */
